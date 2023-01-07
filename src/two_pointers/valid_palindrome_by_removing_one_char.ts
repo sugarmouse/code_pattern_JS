@@ -32,9 +32,11 @@ export function isPalindromeRmOneChar(s: string): boolean {
       if (invalidChar === 0 && s[low] === s[high - 1]) {
         high -= 1;
         invalidChar += 1;
-      } else if (invalidChar=== 0 && s[low + 1] === s[high]) {
+      } else if (invalidChar === 0 && s[low + 1] === s[high]) {
         low += 1;
         invalidChar += 1;
+      } else {
+        return false;
       }
     }
   }
