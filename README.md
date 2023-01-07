@@ -6,7 +6,7 @@
 - 课程内容将常见的面试算法题归类成 24 个分类，分门别类的刷题能更快的掌握解题思路，面对一个新的问题也可以更快的找到解决思路。
 
 - [ ] sliding window
-- [ ] tow pointers
+- [x] [tow pointers](./src/two_pointers/README.md)
 - [ ] fast and slow pointer
 - [ ] merge intervals
 - [ ] in-place reversal of linked list
