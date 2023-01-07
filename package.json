@@ -4,7 +4,7 @@
   "description": "- WIP :beginner:",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node"
+    "go": "sh ./scripts/test.sh"
   },
   "repository": {
     "type": "git",
