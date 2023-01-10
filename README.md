@@ -7,7 +7,7 @@
 
 - [ ] sliding window
 - [x] [two pointers](./src/two_pointers/README.md)
-- [ ] fast and slow pointer
+- [x] [fast and slow pointer](./src/fast_and_slow_pointers/README.md)
 - [ ] merge intervals
 - [ ] in-place reversal of linked list
 - [ ] two heaps
