@@ -12,3 +12,18 @@ function removeDuplicates(s: string): string {
     }
     return stack.join('');
 };
+
+
+function removeDuplicates_s(s: string): string {
+    const stack: string[] = [];
+    let i = 0;
+    while (i < s.length) {
+        if (stack[stack.length - 1] !== s[i]) {
+            stack.push(s[i]);
+        } else {
+            stack.pop();
+        }
+        i++
+    }
+    return stack.join("");
+};
