@@ -4,6 +4,13 @@
 
 // {key: KVNode} 和 DoubleLinkedList 同时存储数据，达到 put 和 get 方法同时 TC O(1);
 
+/*
+    js trick: js 的 map 具有天然顺序属性，可以记住键的原始插入顺序
+
+    get(key): 先拿到对应的 val，然后 delete(k,v), 再 set(k,v)
+    put(key, val): 如果有 key，先删除；如果超出容量，删除第一个key； set(k,v)
+*/
+
 class LRUCache {
     map: Map<number, KVNode>;
     cahce: DoubleList;
